@@ -25,7 +25,15 @@ a {
 background-color: #3a4660;
 color: #c9af98;
 text-decoration: none;
-padding: 10px 10px 10px 10px;
+padding: 20px;
+border: 5px outset red;
+border-radius: 5px;
+transition-duration: 1s;
+}
+
+a:hover {
+background-color: #845007;
+border: 5px outset blue;
 }
 
 img{
