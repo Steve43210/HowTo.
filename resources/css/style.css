@@ -5,20 +5,27 @@ line-height: 1;
 
 h1 {
 font-size: 2.5rem;
-color: #3a4660;
+color: #4D79E6;
 font-weight: 600;
 text-align: center;
 }
 
 h2 {
 font-size: 2rem;
-color: #845007;
+color: cyan;
 padding: 25px 15px 25px 0;
+text-align: center;
 }
 
 h3 {
-font-size: 1.5rem;
-color: #3a4660;
+font-size: 2.5rem;
+color: #4D79E6;
+}
+
+nav {
+padding: 20px 0 30px 10px;
+width: 70%;
+margin: 20px auto;
 }
 
 a {
@@ -27,8 +34,9 @@ color: #c9af98;
 text-decoration: none;
 padding: 20px;
 border: 5px outset red;
-border-radius: 5px;
+border-radius: 50%;
 transition-duration: 1s;
+margin: 5px;
 }
 
 a:hover {
@@ -39,6 +47,7 @@ border: 5px outset blue;
 img{
 width: 400px;
 height: 300px;
+margin: 0 0 0 18rem;
 }
 
 ul {
