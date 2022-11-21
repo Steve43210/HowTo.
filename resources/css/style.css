@@ -23,7 +23,7 @@ color: #4D79E6;
 }
 
 nav {
-padding: 20px 0 30px 10px;
+padding: 25px 0 30px 25rem;
 width: 70%;
 margin: 20px auto;
 }
@@ -32,11 +32,11 @@ a {
 background-color: #3a4660;
 color: #c9af98;
 text-decoration: none;
-padding: 20px;
-border: 5px outset red;
-border-radius: 50%;
+padding: 22px;
+border: 7px outset red;
+border-radius: 53%;
 transition-duration: 1s;
-margin: 5px;
+margin: 15px 0 0 0;
 }
 
 a:hover {
@@ -47,12 +47,11 @@ border: 5px outset blue;
 img{
 width: 400px;
 height: 300px;
-margin: 0 0 0 18rem;
+margin: 0 0 0 34rem;
 }
 
 ul {
     display: block;
-    list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -60,12 +59,21 @@ ul {
     padding-inline-start: 40px;
 }
 
+ul li {
+    list-style-type: circle;
+    padding: 3.5px;
+}
+
 ol {
     display: block;
-    list-style-type: decimal;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+
+ol li {
+list-style-type: decimal;
+padding: 7px;
 }
