@@ -1,79 +1,93 @@
 * {
-background-color: #ed8a63;
-line-height: 1;
-}
-
-h1 {
-font-size: 2.5rem;
-color: #4D79E6;
-font-weight: 600;
-text-align: center;
-}
-
-h2 {
-font-size: 2rem;
-color: cyan;
-padding: 25px 15px 25px 0;
-text-align: center;
-}
-
-h3 {
-font-size: 2.5rem;
-color: #4D79E6;
-}
-
-nav {
-padding: 25px 0 30px 25rem;
-width: 70%;
-margin: 20px auto;
-}
-
-a {
-background-color: #3a4660;
-color: #c9af98;
-text-decoration: none;
-padding: 22px;
-border: 7px outset red;
-border-radius: 53%;
-transition-duration: 1s;
-margin: 15px 0 0 0;
-}
-
-a:hover {
-background-color: #845007;
-border: 5px outset blue;
-}
-
-img{
-width: 400px;
-height: 300px;
-margin: 0 0 0 34rem;
-}
-
-ul {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-ul li {
-    list-style-type: circle;
-    padding: 3.5px;
-}
-
-ol {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-ol li {
-list-style-type: decimal;
-padding: 7px;
-}
+    background-color: #ed8a63;
+    line-height: 1;
+    margin: auto;
+    width: auto;
+    }
+    
+    h1 {
+    font-size: 5vw;
+    color: #4D79E6;
+    font-weight: 600;
+    text-align: center;
+    }
+    
+    h2 {
+    font-size: 6vw;
+    font-weight: 600;
+    color: cyan;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    h3 {
+    font-size: 4vw;
+    color: #4D79E6;
+    width: 50%;
+    }
+    
+    nav {
+    padding: 15px 0 25px 0;
+    width: 50%px;
+    margin: 20px auto;
+    }
+    
+    a {
+    background-color: #3a4660;
+    color: #c9af98;
+    text-decoration: none;
+    padding: 20px;
+    border: 5px outset red;
+    border-radius: 50%;
+    transition-duration: 1s;
+    margin: 5px;
+    }
+    
+    a:hover {
+    background-color: #845007;
+    border: 5px outset blue;
+    }
+    
+    .image-container {
+    margin: auto;
+    text-align: center;
+    }
+    
+    .image-container img {
+    width: 50%;
+    height: auto;
+    }
+    
+    ul {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+    
+    ul li {
+        list-style-type: circle;
+        padding: 5px;
+    width: 50%
+    font-size: 150%;
+    }
+    
+    ol {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+    
+    ol li {
+    list-style-type: decimal;
+    padding: 7px;
+    }
+    
+    li {
+    font-size: 130%;
+    }
