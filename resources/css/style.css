@@ -73,10 +73,13 @@
     }
     
     ul li {
-        list-style-type: circle;
-        padding: 5px;
-    width: 50%
+    list-style-type: circle;
+    padding: 5px;
+    max-height: 100%;
+    width: 50%;
     font-size: 150%;
+    opacity: .7;
+    background-color: blue;
     }
     
     ol {
@@ -89,9 +92,14 @@
     }
     
     ol li {
+    max-height: 100%;
     list-style-type: decimal;
     padding: 7px;
     color: blue;
+    width: 50%;
+    font-size: 150%;
+    opacity: .7;
+    background-color: cyan;
     }
     
     li {
