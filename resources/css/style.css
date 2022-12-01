@@ -33,10 +33,10 @@
     
     head {
     background-color: #2262ec;
-    height: 60px;
+    height: 30px;
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: top;
     align-content: center;
     z-index: 10;
     width: 100%;
@@ -45,6 +45,7 @@
     }
     
     nav {
+    flex-grow: 1;
     text-align: right;
     position: fixed;
     display: flex;
@@ -52,18 +53,18 @@
     align-content: center;
     height: 50px;
     z-index: 11;
-    padding: 0 0 25px 0;
+    padding: 20px 10px;
     width: 65%;
-    margin: auto;
+    margin-top: 20px;
     flex-wrap: wrap;
     }
     
     a {
     z-index: 11;
     background-color: #3a4660;
-    color: #c9af98;
+    color: #7d6a59;
     text-decoration: none;
-    padding: 20px;
+    padding: 20px 10px;
     border: 5px outset red;
     border-radius: 50%;
     transition-duration: 1s;
