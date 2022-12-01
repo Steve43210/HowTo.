@@ -30,6 +30,10 @@
     width: 50%;
     }
     
+    header {
+        background-color: #3a4660;
+        }
+        
     nav {
     padding: 15px 0 25px 0;
     width: 50%px;
