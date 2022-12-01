@@ -10,6 +10,7 @@
     }
     
     h1 {
+    padding: 50px 0 0 0;
     font-size: 5vw;
     color: #4D79E6;
     font-weight: 600;
@@ -20,7 +21,7 @@
     font-size: 6vw;
     font-weight: 600;
     color: cyan;
-    padding: 20px;
+    padding: 44px 0 0 0;
     text-align: center;
     }
     
@@ -30,17 +31,35 @@
     width: 50%;
     }
     
-    header {
-        background-color: #2262ec;
-        }
-
+    head {
+    background-color: #2262ec;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 10;
+    width: 100%;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+    }
+    
     nav {
-    padding: 15px 0 25px 0;
-    width: 50%px;
-    margin: 20px auto;
+    text-align: right;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+    z-index: 11;
+    padding: 0 0 25px 0;
+    width: 65%;
+    margin: auto;
+    flex-wrap: wrap;
     }
     
     a {
+    z-index: 11;
     background-color: #3a4660;
     color: #c9af98;
     text-decoration: none;
@@ -52,6 +71,7 @@
     }
     
     a:hover {
+    z-index: 11;
     background-color: #845007;
     border: 5px outset blue;
     }
@@ -77,13 +97,13 @@
     }
     
     ul li {
-    list-style-type: circle;
-    padding: 5px;
-    max-height: 100%;
-    width: 50%;
-    font-size: 150%;
-    opacity: .7;
-    background-color: blue;
+        list-style-type: circle;
+        padding: 5px;
+        max-height: 100%;
+        width: 50%;
+        font-size: 150%;
+        opacity: .7;
+        background-color: blue;
     }
     
     ol {
