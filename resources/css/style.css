@@ -33,7 +33,7 @@
     
     head {
     background-color: #2262ec;
-    height: 30px;
+    height: 70px;
     position: fixed;
     display: flex;
     justify-content: top;
@@ -49,12 +49,12 @@
     text-align: right;
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: top;
     align-content: center;
-    height: 50px;
+    height: 30px;
     z-index: 11;
     padding: 20px 10px;
-    width: 65%;
+    width: 80%;
     margin-top: 20px;
     flex-wrap: wrap;
     }
