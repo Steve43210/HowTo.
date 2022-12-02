@@ -46,7 +46,7 @@
     
     nav {
     flex-grow: 1;
-    text-align: right;
+    text-align: center;
     position: fixed;
     display: flex;
     justify-content: top;
