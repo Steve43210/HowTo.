@@ -69,7 +69,7 @@
     border: 5px outset red;
     border-radius: 50%;
     transition-duration: 1s;
-    margin: 5px;
+    margin: 0 2px 15px 0;
     }
     
     a:hover {
