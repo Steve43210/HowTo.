@@ -36,7 +36,7 @@
     height: 70px;
     position: fixed;
     display: flex;
-    justify-content: top;
+    justify-content: center;
     align-content: center;
     z-index: 10;
     width: 100%;
@@ -55,7 +55,7 @@
     z-index: 11;
     padding: 20px 10px;
     width: 80%;
-    margin-top: 20px;
+    margin: 0 2px 0 0;
     flex-wrap: nowrap;
     }
     
