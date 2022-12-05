@@ -135,7 +135,7 @@
     @media only screen and (max-width: 760px) {
 
         .nav {
-display: none;
+display: flex;
 }
 
 h3 {
