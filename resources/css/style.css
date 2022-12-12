@@ -49,7 +49,7 @@
     text-align: center;
     position: fixed;
     display: flex;
-    justify-content: top;
+    justify-content: center;
     align-content: center;
     height: 30px;
     z-index: 11;
